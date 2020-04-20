@@ -1,0 +1,210 @@
+.nsmg-003 {
+  /* common styling */
+  /* chart styling */ }
+  .nsmg-003 .logo {
+    font-weight: bold;
+    color: #c1002a;
+    clear: both;
+    float: right;
+    font-size: 1.5em;
+    margin-right: 16px;
+    position: relative;
+    top: -32px;
+    opacity: 0;
+    display: none; }
+  .nsmg-003 .logo-N {
+    color: #ee1d26; }
+  .nsmg-003 h2 {
+    margin-top: 8px; }
+  .nsmg-003 .container {
+    padding-top: 16px;
+    width: 684px; }
+  .nsmg-003 h4 {
+    font-weight: bold; }
+  .nsmg-003 h5 {
+    color: #c1002a;
+    font-weight: normal; }
+  .nsmg-003 h3 {
+    margin-left: 1em; }
+  .nsmg-003 header, .nsmg-003 .container {
+    padding-left: 8px;
+    padding-right: 8px; }
+  .nsmg-003 body {
+    width: 716px;
+    font-family: 'Merriweather', serif;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content; }
+  .nsmg-003 .legend text {
+    font-family: sans-serif; }
+  .nsmg-003 header {
+    max-width: 640px;
+    margin-bottom: 8px;
+    padding-top: 1px; }
+  .nsmg-003 h3 {
+    margin-left: 48px; }
+  .nsmg-003 .country img {
+    height: 20px;
+    width: 30px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    -o-object-position: bottom;
+       object-position: bottom; }
+  .nsmg-003 .country {
+    position: relative;
+    margin-bottom: 24px; }
+  .nsmg-003 .source-text {
+    color: #607A8A;
+    margin: 8px 4px;
+    font-size: 0.75em; }
+  .nsmg-003 body:not(.daily) h3,
+  .nsmg-003 body:not(.daily) h4,
+  .nsmg-003 body:not(.daily) h5 {
+    padding: 0;
+    margin: 0; }
+  .nsmg-003 h4 {
+    font-weight: bold; }
+  .nsmg-003 h5 {
+    color: #c1002a;
+    font-weight: normal; }
+  .nsmg-003 h3 {
+    margin-left: 1em; }
+  .nsmg-003 header, .nsmg-003 .container {
+    padding-left: 8px;
+    padding-right: 8px; }
+  .nsmg-003 body {
+    width: 700px;
+    font-family: 'Merriweather', serif;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content; }
+  .nsmg-003 .chart-container {
+    display: inline-block;
+    margin-bottom: 16px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 8px;
+    margin: 8px 0;
+    position: relative; }
+  .nsmg-003 .clear {
+    clear: both; }
+  .nsmg-003 .country h3 {
+    padding: 0;
+    margin: 0;
+    margin-left: 2.5em; }
+  .nsmg-003 .country-Japan img {
+    border: 1px solid black; }
+  .nsmg-003 path.domain {
+    display: none; }
+  .nsmg-003 .y-domain,
+  .nsmg-003 .x-domain {
+    stroke: #000;
+    stroke-width: 2px; }
+  .nsmg-003 .tick text {
+    font-family: 'Merriweather', serif; }
+  .nsmg-003 body {
+    max-width: 932px;
+    width: calc(100% - 16px);
+    font-family: 'Helvetica', san-serif;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background: #fff; }
+  .nsmg-003 .tick text {
+    font-family: 'Helvetica', san-serif;
+    font-size: 1rem; }
+  .nsmg-003 .container {
+    max-width: 916px;
+    width: 100%;
+    overflow-x: auto; }
+  .nsmg-003 table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 16px; }
+  .nsmg-003 td {
+    padding: 4px; }
+  .nsmg-003 thead tr {
+    font-weight: bold;
+    padding: 2px; }
+  .nsmg-003 td.small {
+    font-size: 0.75em; }
+  .nsmg-003 tbody tr:nth-child(odd) {
+    background: #d8efff; }
+  .nsmg-003 .chart-container {
+    width: 100%;
+    max-width: 570px;
+    display: inline-block;
+    margin-bottom: 16px;
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    padding-top: 8px;
+    position: relative; }
+    @media (max-width: 930px) {
+      .nsmg-003 .chart-container {
+        max-width: unset; } }
+    .nsmg-003 .chart-container.wide {
+      max-width: 900px; }
+    .nsmg-003 .chart-container.narrow {
+      max-width: 300px;
+      margin-right: 30px; }
+      @media (max-width: 930px) {
+        .nsmg-003 .chart-container.narrow {
+          max-width: unset;
+          margin-right: 0; } }
+  .nsmg-003 .chart-container:last-of-type {
+    max-width: 900px; }
+  .nsmg-003 .tick line {
+    stroke: #ccc; }
+  .nsmg-003 h3 {
+    margin-left: 0; }
+  .nsmg-003 h5 {
+    /* max-width: 280px; */
+    padding-top: 4px; }
+  .nsmg-003 h4 {
+    font-size: 14px;
+    font-weight: normal; }
+  .nsmg-003 .map svg {
+    overflow: visible;
+    height: 638px;
+    width: 684px; }
+  .nsmg-003 .map {
+    padding-top: 16px; }
+  .nsmg-003 h5 span {
+    padding: 2px 4px; }
+  .nsmg-003 .legend {
+    padding: 4px 8px;
+    color: #fff;
+    border: 1px solid #777;
+    display: inline-block; }
+  .nsmg-003 .legend-jobs {
+    background: #c1002a; }
+  .nsmg-003 .legend-companies {
+    background: #8399A8; }
+  .nsmg-003 .stage-0 {
+    color: #8399a8; }
+  .nsmg-003 .stage-1 {
+    color: #8399a8; }
+  .nsmg-003 .stage-2 {
+    color: #8399a8; }
+  .nsmg-003 .stage-3 {
+    color: #8399a8; }
+  .nsmg-003 .stage-0.selected {
+    color: #84a2ff; }
+  .nsmg-003 .stage-1.selected {
+    color: #0054c1; }
+  .nsmg-003 .stage-2.selected {
+    color: #00c16d; }
+  .nsmg-003 .stage-3.selected {
+    color: black; }
+  .nsmg-003 .center {
+    text-align: center;
+    padding: 0 8px; }
+  .nsmg-003 .right {
+    text-align: right; }
+  .nsmg-003 .countries path {
+    fill: #8399A8; }
+
+/*# sourceMappingURL=graphic.css.map */
