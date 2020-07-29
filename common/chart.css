@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Unit OT";
+  src: url("https://www.citymetric.com/sites/all/themes/creative-responsive-theme/fonts/unitot-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.citymetric.com/sites/all/themes/creative-responsive-theme/fonts/unitot-webfont.woff") format("woff"), url("https://www.citymetric.com/sites/all/themes/creative-responsive-theme/fonts/unitot-webfont.ttf") format("truetype"), url("/sites/all/themes/creative-responsive-theme/fonts/unitot-webfont.svg#unitotregular") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.chart-container {
+  min-width: 280px;
+  max-width: 900px;
+  width: 100%;
+  font-family: "Unit OT", sans-serif;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  color: #c1002a;
+}
+
+body {
+  padding: 16px;
+}
+
+.svg-container {
+  margin-top: 0.5em;
+}

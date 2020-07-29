@@ -1,0 +1,33 @@
+city,year,crime_type_2,crime_cnt
+Detroit,2017,arson,66.0
+Detroit,2017,assault,1669.0
+Detroit,2017,burglary,689.0
+Detroit,2017,homicide,21.0
+Detroit,2017,larceny,1025.0
+Detroit,2017,robbery,187.0
+Detroit,2017,sexual assault,84.0
+Detroit,2017,vehicle theft,673.0
+Detroit,2018,arson,48.0
+Detroit,2018,assault,1704.0
+Detroit,2018,burglary,557.0
+Detroit,2018,homicide,19.0
+Detroit,2018,larceny,1072.0
+Detroit,2018,robbery,167.0
+Detroit,2018,sexual assault,113.0
+Detroit,2018,vehicle theft,484.0
+Detroit,2019,arson,72.0
+Detroit,2019,assault,2095.0
+Detroit,2019,burglary,557.0
+Detroit,2019,homicide,18.0
+Detroit,2019,larceny,1056.0
+Detroit,2019,robbery,153.0
+Detroit,2019,sexual assault,105.0
+Detroit,2019,vehicle theft,458.0
+Detroit,2020,arson,57.0
+Detroit,2020,assault,1592.0
+Detroit,2020,burglary,366.0
+Detroit,2020,homicide,12.0
+Detroit,2020,larceny,799.0
+Detroit,2020,robbery,124.0
+Detroit,2020,sexual assault,61.0
+Detroit,2020,vehicle theft,435.0

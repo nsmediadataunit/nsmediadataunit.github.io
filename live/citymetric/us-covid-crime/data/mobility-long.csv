@@ -1,0 +1,33 @@
+city,sub_region_2,sub_region_1,measure,perc_change
+Baltimore,Baltimore,Maryland,Retail/recreation,-41.766666666666666
+Baltimore,Baltimore,Maryland,Workplace,-48.766666666666666
+Baltimore,Baltimore,Maryland,Transit,-40.733333333333334
+Baltimore,Baltimore,Maryland,Grocery/pharmacy,-19.066666666666666
+Chicago,Cook County,Illinois,Retail/recreation,-48.1
+Chicago,Cook County,Illinois,Workplace,-52.8
+Chicago,Cook County,Illinois,Transit,-60.3
+Chicago,Cook County,Illinois,Grocery/pharmacy,-16.833333333333332
+Chattanooga,Hamilton County,Tennessee,Retail/recreation,-37.03333333333333
+Chattanooga,Hamilton County,Tennessee,Workplace,-43.0
+Chattanooga,Hamilton County,Tennessee,Transit,-36.4
+Chattanooga,Hamilton County,Tennessee,Grocery/pharmacy,-8.766666666666667
+Los Angeles,Los Angeles County,California,Retail/recreation,-51.766666666666666
+Los Angeles,Los Angeles County,California,Workplace,-48.56666666666667
+Los Angeles,Los Angeles County,California,Transit,-52.6
+Los Angeles,Los Angeles County,California,Grocery/pharmacy,-22.066666666666666
+Philadelphia,Philadelphia County,Pennsylvania,Retail/recreation,-50.96666666666667
+Philadelphia,Philadelphia County,Pennsylvania,Workplace,-54.3
+Philadelphia,Philadelphia County,Pennsylvania,Transit,-59.2
+Philadelphia,Philadelphia County,Pennsylvania,Grocery/pharmacy,-21.566666666666666
+Little Rock,Pulaski County,Arkansas,Retail/recreation,-30.5
+Little Rock,Pulaski County,Arkansas,Workplace,-37.56666666666667
+Little Rock,Pulaski County,Arkansas,Transit,-32.46666666666667
+Little Rock,Pulaski County,Arkansas,Grocery/pharmacy,-4.7
+St. Louis,St. Louis,Missouri,Retail/recreation,-47.43333333333333
+St. Louis,St. Louis,Missouri,Workplace,-49.666666666666664
+St. Louis,St. Louis,Missouri,Transit,-36.233333333333334
+St. Louis,St. Louis,Missouri,Grocery/pharmacy,-7.233333333333333
+Detroit,Wayne County,Michigan,Retail/recreation,-50.833333333333336
+Detroit,Wayne County,Michigan,Workplace,-58.166666666666664
+Detroit,Wayne County,Michigan,Transit,-56.86666666666667
+Detroit,Wayne County,Michigan,Grocery/pharmacy,-19.9

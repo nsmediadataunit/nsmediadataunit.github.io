@@ -1,0 +1,41 @@
+city,year,crime_type_2,crime_cnt
+St. Louis,2016,arson,27.0
+St. Louis,2016,assault,301.0
+St. Louis,2016,burglary,287.0
+St. Louis,2016,homicide,22.0
+St. Louis,2016,larceny,903.0
+St. Louis,2016,robbery,146.0
+St. Louis,2016,sexual assault,16.0
+St. Louis,2016,vehicle theft,200.0
+St. Louis,2017,arson,13.0
+St. Louis,2017,assault,317.0
+St. Louis,2017,burglary,218.0
+St. Louis,2017,homicide,19.0
+St. Louis,2017,larceny,1014.0
+St. Louis,2017,robbery,113.0
+St. Louis,2017,sexual assault,19.0
+St. Louis,2017,vehicle theft,183.0
+St. Louis,2018,arson,14.0
+St. Louis,2018,assault,299.0
+St. Louis,2018,burglary,208.0
+St. Louis,2018,homicide,12.0
+St. Louis,2018,larceny,888.0
+St. Louis,2018,robbery,98.0
+St. Louis,2018,sexual assault,32.0
+St. Louis,2018,vehicle theft,200.0
+St. Louis,2019,arson,15.0
+St. Louis,2019,assault,308.0
+St. Louis,2019,burglary,213.0
+St. Louis,2019,homicide,12.0
+St. Louis,2019,larceny,937.0
+St. Louis,2019,robbery,119.0
+St. Louis,2019,sexual assault,23.0
+St. Louis,2019,vehicle theft,218.0
+St. Louis,2020,arson,27.0
+St. Louis,2020,assault,269.0
+St. Louis,2020,burglary,182.0
+St. Louis,2020,homicide,16.0
+St. Louis,2020,larceny,876.0
+St. Louis,2020,robbery,77.0
+St. Louis,2020,sexual assault,19.0
+St. Louis,2020,vehicle theft,253.0

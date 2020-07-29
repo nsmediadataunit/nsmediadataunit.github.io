@@ -1,0 +1,41 @@
+city,year,crime_type_2,crime_cnt
+Los Angeles,2016,arson,44.0
+Los Angeles,2016,assault,1223.0
+Los Angeles,2016,burglary,1308.0
+Los Angeles,2016,homicide,22.0
+Los Angeles,2016,larceny,4774.0
+Los Angeles,2016,robbery,807.0
+Los Angeles,2016,sexual assault,194.0
+Los Angeles,2016,vehicle theft,1410.0
+Los Angeles,2017,arson,40.0
+Los Angeles,2017,assault,1138.0
+Los Angeles,2017,burglary,1310.0
+Los Angeles,2017,homicide,32.0
+Los Angeles,2017,larceny,4814.0
+Los Angeles,2017,robbery,878.0
+Los Angeles,2017,sexual assault,183.0
+Los Angeles,2017,vehicle theft,1539.0
+Los Angeles,2018,arson,27.0
+Los Angeles,2018,assault,1110.0
+Los Angeles,2018,burglary,1282.0
+Los Angeles,2018,homicide,15.0
+Los Angeles,2018,larceny,4936.0
+Los Angeles,2018,robbery,853.0
+Los Angeles,2018,sexual assault,186.0
+Los Angeles,2018,vehicle theft,1511.0
+Los Angeles,2019,arson,33.0
+Los Angeles,2019,assault,1200.0
+Los Angeles,2019,burglary,1126.0
+Los Angeles,2019,homicide,22.0
+Los Angeles,2019,larceny,4695.0
+Los Angeles,2019,robbery,760.0
+Los Angeles,2019,sexual assault,143.0
+Los Angeles,2019,vehicle theft,1245.0
+Los Angeles,2020,arson,36.0
+Los Angeles,2020,assault,1126.0
+Los Angeles,2020,burglary,1061.0
+Los Angeles,2020,homicide,22.0
+Los Angeles,2020,larceny,3354.0
+Los Angeles,2020,robbery,565.0
+Los Angeles,2020,sexual assault,71.0
+Los Angeles,2020,vehicle theft,1812.0

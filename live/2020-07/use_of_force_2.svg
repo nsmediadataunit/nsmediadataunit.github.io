@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 640 450" version="1.1">
+<defs>
+<style type="text/css">
+ @font-face {
+    font-family: Source Sans Pro Regular;
+    src: url("https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2"); }
+</style>
+</defs>
+  <g transform="translate(0, 450) scale(1, -1)">
+    <g id="gridSVG" fill="none" stroke="rgb(0,0,0)" stroke-dasharray="none" stroke-width="0.75" font-size="12" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" opacity="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-opacity="1" fill-opacity="0" font-weight="normal" font-style="normal">
+      <g id="layout.1">
+        <g id="layout.2">
+          <defs>
+            <clipPath id="layout::background.1-9-14-1.1.clipPath">
+              <rect x="0" y="0" width="640" height="450" fill="none" stroke="none"/>
+            </clipPath>
+          </defs>
+          <g id="layout::background.1-9-14-1.1" clip-path="url(#layout::background.1-9-14-1.1.clipPath)"/>
+          <defs>
+            <clipPath id="layout::panel.9-5-9-5.1.clipPath">
+              <rect x="233.89" y="75.82" width="397.6" height="326.47" fill="none" stroke="none"/>
+            </clipPath>
+          </defs>
+          <g id="layout::panel.9-5-9-5.1" clip-path="url(#layout::panel.9-5-9-5.1.clipPath)">
+            <g id="panel.9-5-9-5.1">
+              <g id="grill.gTree.21.1">
+                <g id="panel.grid.major.x..polyline.20.1">
+                  <polyline id="panel.grid.major.x..polyline.20.1.1" points="251.97,75.82 251.97,402.3" stroke="rgb(203,203,203)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="panel.grid.major.x..polyline.20.1.2" points="340.31,75.82 340.31,402.3" stroke="rgb(203,203,203)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="panel.grid.major.x..polyline.20.1.3" points="428.65,75.82 428.65,402.3" stroke="rgb(203,203,203)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="panel.grid.major.x..polyline.20.1.4" points="516.99,75.82 516.99,402.3" stroke="rgb(203,203,203)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-opacity="1" fill-opacity="1"/>
+                  <polyline id="panel.grid.major.x..polyline.20.1.5" points="605.32,75.82 605.32,402.3" stroke="rgb(203,203,203)" fill="none" stroke-width="1.07" stroke-dasharray="none" stroke-linecap="butt" stroke-opacity="1" fill-opacity="1"/>
+                </g>
+              </g>
+              <g id="geom_rect.rect.12.1">
+                <rect id="geom_rect.rect.12.1.1" x="251.97" y="386.24" width="205.9" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.2" x="251.97" y="305.96" width="19.53" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.3" x="251.97" y="359.48" width="49.16" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.4" x="251.97" y="225.68" width="3.99" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.5" x="251.97" y="252.44" width="13.42" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.6" x="251.97" y="172.16" width="3.79" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.7" x="251.97" y="118.64" width="0.7" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.8" x="251.97" y="332.72" width="14.22" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.9" x="251.97" y="91.88" width="0.56" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.10" x="251.97" y="198.92" width="2.3" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.11" x="251.97" y="145.4" width="1.55" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.12" x="251.97" y="279.2" width="18.84" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.13" x="251.97" y="374.2" width="361.46" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.14" x="251.97" y="293.92" width="29.8" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.15" x="251.97" y="347.44" width="68.75" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.16" x="251.97" y="213.64" width="9.81" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.17" x="251.97" y="240.4" width="13.83" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.18" x="251.97" y="160.12" width="3.89" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.19" x="251.97" y="106.6" width="0.9" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.20" x="251.97" y="320.68" width="32.19" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.21" x="251.97" y="79.84" width="0.55" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.22" x="251.97" y="186.88" width="8.3" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.23" x="251.97" y="133.36" width="2.18" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                <rect id="geom_rect.rect.12.1.24" x="251.97" y="267.16" width="22.48" height="12.04" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-width="1.07" stroke-dasharray="none" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+              </g>
+              <g id="GRID.segments.13.1">
+                <polyline id="GRID.segments.13.1.1" points="233.89,65.12 631.5,65.12" stroke="rgb(51,51,51)" fill="none" stroke-width="2.13" stroke-dasharray="none" stroke-linecap="butt" stroke-linejoin="round" stroke-opacity="1" fill-opacity="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="layout::spacer.10-6-10-6.1"/>
+          <g id="layout::spacer.10-4-10-4.1"/>
+          <g id="layout::spacer.8-6-8-6.1"/>
+          <g id="layout::spacer.8-4-8-4.1"/>
+          <g id="layout::axis-t.8-5-8-5.1"/>
+          <g id="layout::axis-l.9-4-9-4.1">
+            <g id="layout::axis-l.9-4-9-4::GRID.VP.6.1">
+              <g id="axis-l.9-4-9-4.1">
+                <g id="layout::axis-l.9-4-9-4::GRID.VP.6::axis.1">
+                  <g id="axis.1">
+                    <g id="layout::axis-l.9-4-9-4::GRID.VP.6::axis::axis.1-1-1-1.1">
+                      <g id="layout::axis-l.9-4-9-4::GRID.VP.6::axis::axis.1-1-1-1::GRID.VP.4.1" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal">
+                        <g id="layout::axis-l.9-4-9-4::GRID.VP.6::axis::axis.1-1-1-1::GRID.VP.4::GRID.VP.5.1">
+                          <g id="axis.1-1-1-1.1">
+                            <g id="GRID.text.28.1">
+                              <g id="GRID.text.28.1.1" transform="translate(228.96, 91.88)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.1.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.1.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.1.tspan.1" dy="7.92" x="0">AEP (Baton Rounds)</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.2" transform="translate(228.96, 118.64)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.2.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.2.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.2.tspan.1" dy="7.92" x="0">Shield</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.3" transform="translate(228.96, 145.4)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.3.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.3.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.3.tspan.1" dy="7.92" x="0">Dog use</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.4" transform="translate(228.96, 172.16)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.4.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.4.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.4.tspan.1" dy="7.92" x="0">Spit and bite guard</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.5" transform="translate(228.96, 198.92)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.5.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.5.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.5.tspan.1" dy="7.92" x="0">Total Firearms</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.6" transform="translate(228.96, 225.68)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.6.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.6.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.6.tspan.1" dy="7.92" x="0">Baton</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.7" transform="translate(228.96, 252.44)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.7.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.7.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.7.tspan.1" dy="7.92" x="0">Irritant spray</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.8" transform="translate(228.96, 279.2)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.8.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.8.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.8.tspan.1" dy="7.92" x="0">Other / improvised</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.9" transform="translate(228.96, 305.96)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.9.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.9.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.9.tspan.1" dy="7.92" x="0">Limb / Body restraints</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.10" transform="translate(228.96, 332.72)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.10.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.10.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.10.tspan.1" dy="7.92" x="0">CED (Taser)</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.11" transform="translate(228.96, 359.48)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.11.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.11.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.11.tspan.1" dy="7.92" x="0">Ground restraint</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.28.1.12" transform="translate(228.96, 386.24)" stroke-width="0.1">
+                                <g id="GRID.text.28.1.12.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.28.1.12.text" text-anchor="end" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.28.1.12.tspan.1" dy="7.92" x="0">Handcuffing</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <g id="layout::axis-l.9-4-9-4::GRID.VP.6::axis::axis.1-2-1-2.1"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::axis-r.9-6-9-6.1"/>
+          <g id="layout::axis-b.10-5-10-5.1">
+            <g id="layout::axis-b.10-5-10-5::GRID.VP.3.1">
+              <g id="axis-b.10-5-10-5.1">
+                <g id="layout::axis-b.10-5-10-5::GRID.VP.3::axis.1">
+                  <g id="axis.2">
+                    <g id="layout::axis-b.10-5-10-5::GRID.VP.3::axis::axis.1-1-1-1.1"/>
+                    <g id="layout::axis-b.10-5-10-5::GRID.VP.3::axis::axis.2-1-2-1.1">
+                      <g id="layout::axis-b.10-5-10-5::GRID.VP.3::axis::axis.2-1-2-1::GRID.VP.1.1" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal">
+                        <g id="layout::axis-b.10-5-10-5::GRID.VP.3::axis::axis.2-1-2-1::GRID.VP.1::GRID.VP.2.1">
+                          <g id="axis.2-1-2-1.1">
+                            <g id="GRID.text.24.1">
+                              <g id="GRID.text.24.1.1" transform="translate(251.97, 68.1)" stroke-width="0.1">
+                                <g id="GRID.text.24.1.1.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.24.1.1.text" text-anchor="middle" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.24.1.1.tspan.1" dy="15.84" x="0">0</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.24.1.2" transform="translate(340.31, 68.1)" stroke-width="0.1">
+                                <g id="GRID.text.24.1.2.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.24.1.2.text" text-anchor="middle" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.24.1.2.tspan.1" dy="15.84" x="0">20000</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.24.1.3" transform="translate(428.65, 68.1)" stroke-width="0.1">
+                                <g id="GRID.text.24.1.3.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.24.1.3.text" text-anchor="middle" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.24.1.3.tspan.1" dy="15.84" x="0">40000</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.24.1.4" transform="translate(516.99, 68.1)" stroke-width="0.1">
+                                <g id="GRID.text.24.1.4.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.24.1.4.text" text-anchor="middle" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.24.1.4.tspan.1" dy="15.84" x="0">60000</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                              <g id="GRID.text.24.1.5" transform="translate(605.32, 68.1)" stroke-width="0.1">
+                                <g id="GRID.text.24.1.5.scale" transform="scale(1, -1)">
+                                  <text x="0" y="0" id="GRID.text.24.1.5.text" text-anchor="middle" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                    <tspan id="GRID.text.24.1.5.tspan.1" dy="15.84" x="0">80000</tspan>
+                                  </text>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::xlab-t.7-5-7-5.1"/>
+          <g id="layout::xlab-b.11-5-11-5.1">
+            <g id="layout::xlab-b.11-5-11-5::GRID.VP.7.1" font-size="18" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal">
+              <g id="layout::xlab-b.11-5-11-5::GRID.VP.7::GRID.VP.8.1">
+                <g id="xlab-b.11-5-11-5.1">
+                  <g id="GRID.text.31.1">
+                    <g id="GRID.text.31.1.1" transform="translate(432.69, 5.79)" stroke-width="0.1">
+                      <g id="GRID.text.31.1.1.scale" transform="scale(1, -1)">
+                        <text x="0" y="0" id="GRID.text.31.1.1.text" text-anchor="middle" font-size="18" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                          <tspan id="GRID.text.31.1.1.tspan.1" dy="0" x="0"></tspan>
+                        </text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::ylab-l.9-3-9-3.1">
+            <g id="layout::ylab-l.9-3-9-3::GRID.VP.9.1" font-size="18" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal">
+              <g id="layout::ylab-l.9-3-9-3::GRID.VP.9::GRID.VP.10.1">
+                <g id="ylab-l.9-3-9-3.1">
+                  <g id="GRID.text.35.1">
+                    <g id="GRID.text.35.1.1" transform="translate(2.9, 239.06)" stroke-width="0.1">
+                      <g id="GRID.text.35.1.1.scale" transform="scale(1, -1)">
+                        <text x="0" y="0" id="GRID.text.35.1.1.text" transform="rotate(-90)" text-anchor="middle" font-size="18" stroke="rgb(0,0,0)" font-family="Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(0,0,0)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                          <tspan id="GRID.text.35.1.1.tspan.1" dy="12.92" x="0"></tspan>
+                        </text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::ylab-r.9-7-9-7.1"/>
+          <g id="layout::guide-box.5-5-5-5.1">
+            <g id="layout::guide-box.5-5-5-5::GRID.VP.18.1">
+              <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5.1">
+                <g id="guide-box.5-5-5-5.1">
+                  <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::legend.box.background.2-4-4-2.1"/>
+                  <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3.1">
+                    <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17.1">
+                      <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3.1">
+                        <g id="guides.3-3-3-3.1">
+                          <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::background.1-11-4-1.1"/>
+                          <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::title.2-2-3-2.1"/>
+                          <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::key-1-3-bg.2-4-2-4.1"/>
+                          <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::key-1-3-1.2-4-2-4.1">
+                            <g id="key-1-3-1.2-4-2-4.1">
+                              <rect id="key-1-3-1.2-4-2-4.1.1" x="245.56" y="419.45" width="15.86" height="15.86" transform="" stroke="rgb(51,51,51)" fill="rgb(18,40,52)" stroke-dasharray="none" stroke-width="1.07" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                            </g>
+                          </g>
+                          <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::key-1-7-bg.2-8-2-8.1"/>
+                          <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::key-1-7-1.2-8-2-8.1">
+                            <g id="key-1-7-1.2-8-2-8.1">
+                              <rect id="key-1-7-1.2-8-2-8.1.1" x="318.8" y="419.45" width="15.86" height="15.86" transform="" stroke="rgb(51,51,51)" fill="rgb(255,255,255)" stroke-dasharray="none" stroke-width="1.07" stroke-linejoin="miter" stroke-linecap="square" stroke-opacity="1" fill-opacity="1"/>
+                            </g>
+                          </g>
+                          <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::label-1-5.2-6-2-6.1">
+                            <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::label-1-5.2-6-2-6::GRID.VP.15.1">
+                              <g id="label-1-5.2-6-2-6.1">
+                                <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::label-1-5.2-6-2-6::GRID.VP.15::GRID.VP.11.1" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal">
+                                  <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::label-1-5.2-6-2-6::GRID.VP.15::GRID.VP.11::GRID.VP.12.1">
+                                    <g id="guide.label.titleGrob.41.1">
+                                      <g id="GRID.text.39.1">
+                                        <g id="GRID.text.39.1.1" transform="translate(267.61, 427.38)" stroke-width="0.1">
+                                          <g id="GRID.text.39.1.1.scale" transform="scale(1, -1)">
+                                            <text x="0" y="0" id="GRID.text.39.1.1.text" text-anchor="start" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                              <tspan id="GRID.text.39.1.1.tspan.1" dy="7.92" x="0">Black</tspan>
+                                            </text>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                          <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::label-1-9.2-10-2-10.1">
+                            <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::label-1-9.2-10-2-10::GRID.VP.16.1">
+                              <g id="label-1-9.2-10-2-10.1">
+                                <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::label-1-9.2-10-2-10::GRID.VP.16::GRID.VP.13.1" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" stroke-opacity="1" font-weight="normal" font-style="normal">
+                                  <g id="layout::guide-box.5-5-5-5::GRID.VP.18::guide-box.5-5-5-5::guides.3-3-3-3::GRID.VP.17::guides.3-3-3-3::label-1-9.2-10-2-10::GRID.VP.16::GRID.VP.13::GRID.VP.14.1">
+                                    <g id="guide.label.titleGrob.44.1">
+                                      <g id="GRID.text.42.1">
+                                        <g id="GRID.text.42.1.1" transform="translate(340.85, 427.38)" stroke-width="0.1">
+                                          <g id="GRID.text.42.1.1.scale" transform="scale(1, -1)">
+                                            <text x="0" y="0" id="GRID.text.42.1.1.text" text-anchor="start" font-size="18" stroke="rgb(34,34,34)" font-family="Source Sans Pro, Helvetica, Arial, FreeSans, Liberation Sans, Nimbus Sans L, sans-serif" fill="rgb(34,34,34)" stroke-opacity="1" fill-opacity="1" font-weight="normal" font-style="normal">
+                                              <tspan id="GRID.text.42.1.1.tspan.1" dy="7.92" x="0">White</tspan>
+                                            </text>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="layout::subtitle.4-5-4-5.1"/>
+          <g id="layout::title.3-5-3-5.1"/>
+          <g id="layout::caption.12-5-12-5.1"/>
+          <g id="layout::tag.2-2-2-2.1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

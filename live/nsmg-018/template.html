@@ -1,0 +1,32 @@
+<meta name="viewport" content="width=device-width"> 
+
+<div style="width: 80%; background: rgba(0,0,0,0.025); margin: 5%; padding: 10%">
+  <div id="nsmg-000-0" style="min-width:320px; max-width: 900px;"></div>
+  <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+  <script>
+      // localhost testing
+      var pymParent = new pym.Parent('nsmg-000-0', "./index.html", {});
+
+      // test link
+      // var pymParent = new pym.Parent('nsmg-000-0', "http://nsmediadataunit.github.io/test/nsmg-000", {});
+
+      // live link
+      // var pymParent = new pym.Parent('nsmg-000-0', "http://nsmediadataunit.github.io/live/nsmg-000", {});
+  </script>
+  <style>#nsmg-000-0 iframe { width: 100%}
+    @media (min-width: 700px) {
+      #nsmg-000-0 {
+        width: 900px;
+        position: relative;
+        left: -5em;
+      }
+    }
+    @media (min-width: 500px) {
+      #nsmg-000-0 {
+        width: 900px;
+        position: relative;
+        left: -13em;
+      }
+    }
+  </style>
+</div>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h3>Bluebikes trips during <span id="lockdown2020">2020</span> and <span id="lockdown2019">2019</span></h3>
+        <h4>Bluebikes services the Massachusetts cities of Boston, Brookline, Cambridge, Everett and Somerville </h4>
+        <div id="chart"></div>
+        <div id="source">Source: Bluebikes system data</div>
+    </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://pym.nprapps.org/pym.v1.min.js" type="text/javascript"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js'></script>
+    <script>
+        //savior: https://bl.ocks.org/mbostock/9490313
+        var data_file = "data/weekly-trips-boston.csv";
+        
+        function capitalizeFLetter(text){ 
+            return text[0].toUpperCase() + text.slice(1); 
+        }
+                        
+        var formatComma = d3.format(",");
+        
+        function parentWidth(elem) {
+            return elem.parentElement.clientWidth;
+        }
+        
+        var containerWidth = parentWidth(document.getElementById('container'));
+
+        var margin = {top: 50, right: 30, bottom: 50, left: 50},
+            width = containerWidth - margin.left - margin.right;
+            height = 250 - margin.top - margin.bottom;
+
+        var parseTime = d3.timeParse('%m/%d/%Y');
+        var parseWeek = d3.timeParse('%V');
+        var formatDate = d3.timeFormat("%b-%d");
+
+        // set the ranges
+        var x = d3.scaleTime().range([0, width]);
+        var y = d3.scaleLinear().range([height, 0]);
+
+        // define the 1st line
+        var valueline = d3.line()
+            .x(function(d) { return x(d['week']); })
+            .y(function(d) { return y(d['trip_cnt']); });
+        
+        var svg = d3.select("#chart").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+                .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+        // gridlines in y axis function
+        function make_y_gridlines() {       
+            return d3.axisLeft(y.nice(4))
+        }
+    
+        d3.csv(data_file).then(function(data) {
+            // format the data
+            data.forEach(function(d) {
+                d['from_date'] = parseTime(d['From Date']);
+                d['week'] = parseWeek(d['week']);
+                d['trip_cnt'] = +d['trip_cnt'];
+            });
+
+            var dataNest = d3.nest()
+                .key(function(d) {return d.year;})
+                .entries(data);
+
+            console.log(dataNest);
+
+            var color = {'2019':"steelblue",'2020':"#8e1600"};
+            var legendSpace = width/dataNest.length; // spacing for the legend
+
+            // Scale the range of the data
+            x.domain(d3.extent(data, function(d) { return d['week']; }));
+            y.domain([0, d3.max(data, function(d) { return d['trip_cnt']; })]).nice(4);
+
+
+            //weeks are pulling from 2019 week numbers FYI
+            var timeline = [
+                {
+                    week:13,
+                    buffer:1,
+                    text:'Free rides program announced',
+                    lineHeight: -25
+                },{
+                    week:12,
+                    buffer:-10,
+                    text:'Public health emergency announced',
+                    lineHeight: -10
+                },{
+                    week: 6,
+                    buffer:-3,
+                    text: 'First Covid case in area',
+                    lineHeight: 5
+                }
+            ];
+
+            var g = svg.selectAll("g")
+                .data(timeline)
+                .enter()
+                .append('g');
+
+            g.append("line")
+                .attr("x1", function(d){ return x(parseWeek(d.week)) + d.buffer})
+                .attr("y1", function(d){return d.lineHeight - 20})
+                .attr("x2", function(d){return x(parseWeek(d.week)) + d.buffer})
+                .attr("y2", height)
+                .style("stroke-width", 1)
+                .style("stroke", "#aaaaaa")
+                .style("fill", "none");
+
+            g.append('rect')
+                .attr("x", function(d){ return x(parseWeek(d.week)) + d.buffer + 5 })
+                .attr("y", function(d){ return -20 + d.lineHeight })
+                //.attr("width", function(d){return this.parentNode.getBBox().width + 50;})
+                .attr("width", 100)
+                .attr("height", function(d){return 17;})
+                .attr("fill-opacity","0.5")
+                .style("fill","#ffffff");
+                
+            g.append('text')
+                .attr("x", function(d){ return x(parseWeek(d.week)) + d.buffer + 5 })
+                .attr("y", function(d){ return -10 + d.lineHeight })
+                .html(function(d){ return d.text });
+
+
+
+            //// add the Y gridlines
+            svg.append("g")           
+                .attr("class", "grid")
+                .call(make_y_gridlines()
+                    .tickSize(-width)
+                    .tickFormat("")
+                )
+
+
+            dataNest.forEach(function(d,i){
+
+                // Add the US valueline path.
+                svg.append("path")
+                  .data([data])
+                  .attr("class", "line")
+                  .style("stroke",color[d.key])
+                  .attr("d", valueline(d.values));
+
+            })
+
+            // Add the x Axis
+            svg.append("g")
+              .attr("transform", "translate(0," + height + ")")
+              .attr("class", "x axis")
+              .call(d3.axisBottom(x)
+                .tickValues(data.map(function(d) { return d.week;}))
+                .tickFormat(formatDate)
+              );
+
+            // Add the y Axis
+            svg.append("g")
+              .attr("class", "y axis")
+              .call(d3.axisLeft(y));
+            
+            
+            
+            var pymChild = new pym.Child({ polling: 500 });            
+            
+        });
+    
+    </script>
+</body>

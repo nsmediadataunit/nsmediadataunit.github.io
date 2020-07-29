@@ -1,0 +1,41 @@
+city,year,crime_type_2,crime_cnt
+Chattanooga,2016,arson,3.0
+Chattanooga,2016,assault,306.0
+Chattanooga,2016,burglary,117.0
+Chattanooga,2016,homicide,3.0
+Chattanooga,2016,larceny,689.0
+Chattanooga,2016,robbery,32.0
+Chattanooga,2016,sexual assault,10.0
+Chattanooga,2016,vehicle theft,89.0
+Chattanooga,2017,arson,2.0
+Chattanooga,2017,assault,350.0
+Chattanooga,2017,burglary,112.0
+Chattanooga,2017,homicide,6.0
+Chattanooga,2017,larceny,628.0
+Chattanooga,2017,robbery,16.0
+Chattanooga,2017,sexual assault,15.0
+Chattanooga,2017,vehicle theft,93.0
+Chattanooga,2018,arson,2.0
+Chattanooga,2018,assault,334.0
+Chattanooga,2018,burglary,106.0
+Chattanooga,2018,homicide,1.0
+Chattanooga,2018,larceny,660.0
+Chattanooga,2018,robbery,26.0
+Chattanooga,2018,sexual assault,13.0
+Chattanooga,2018,vehicle theft,101.0
+Chattanooga,2019,arson,1.0
+Chattanooga,2019,assault,350.0
+Chattanooga,2019,burglary,105.0
+Chattanooga,2019,homicide,4.0
+Chattanooga,2019,larceny,550.0
+Chattanooga,2019,robbery,26.0
+Chattanooga,2019,sexual assault,16.0
+Chattanooga,2019,vehicle theft,78.0
+Chattanooga,2020,arson,2.0
+Chattanooga,2020,assault,322.0
+Chattanooga,2020,burglary,72.0
+Chattanooga,2020,homicide,2.0
+Chattanooga,2020,larceny,596.0
+Chattanooga,2020,robbery,24.0
+Chattanooga,2020,sexual assault,14.0
+Chattanooga,2020,vehicle theft,127.0

@@ -1,0 +1,91 @@
+#nsmg-005-0 .container2, #nsmg-005-0 .container-3 {
+  display: none; }
+
+#nsmg-005-1 .container, #nsmg-005-1 .container-3 {
+  display: none; }
+
+#nsmg-005-2 .container, #nsmg-005-2 .container-2 {
+  display: none; }
+
+.nsmg-005 {
+  /* common styling */ }
+  .nsmg-005 h2 {
+    margin-top: 8px; }
+  .nsmg-005 .source-text {
+    color: #607A8A;
+    margin: 8px 0;
+    font-size: 0.75em; }
+  .nsmg-005 h3, .nsmg-005 h4, .nsmg-005 h5 {
+    padding: 0;
+    margin: 0; }
+  .nsmg-005 body {
+    font-family: 'Merriweather', serif;
+    height: fit-content;
+    max-width: 932px;
+    width: calc(100% - 16px);
+    background: #fff; }
+  .nsmg-005 .chart-container {
+    display: inline-block;
+    margin-bottom: 16px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 8px;
+    margin: 8px 0;
+    position: relative; }
+  .nsmg-005 .clear {
+    clear: both; }
+  .nsmg-005 .source-text {
+    font-size: 1em;
+    padding: 12px 0; }
+  .nsmg-005 .breakout {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    border-top: 1px solid black;
+    padding: 4px 8px;
+    padding-left: 180px; }
+    @media (max-width: 650px) {
+      .nsmg-005 .breakout {
+        position: static;
+        width: calc(100%  - 16px);
+        padding-left: 8px;
+        position: relative; }
+        .nsmg-005 .breakout ul {
+          padding-left: 45%; } }
+    @media (max-width: 400px) {
+      .nsmg-005 .breakout ul {
+        font-size: 0.75em;
+        width: 100%; } }
+  .nsmg-005 .breakout svg {
+    position: absolute;
+    left: 8px;
+    overflow: hidden; }
+    @media (max-width: 650px) {
+      .nsmg-005 .breakout svg {
+        width: 40%;
+        max-height: 120px; } }
+  .nsmg-005 .main svg {
+    padding-top: 24px; }
+    @media (max-width: 900px) {
+      .nsmg-005 .main svg {
+        padding-bottom: 50px; } }
+    @media (max-width: 650px) {
+      .nsmg-005 .main svg {
+        padding-bottom: 0; } }
+  .nsmg-005 .chart-container {
+    width: 100%;
+    max-width: 900px;
+    position: relative; }
+  .nsmg-005 .main svg {
+    overflow: visible; }
+  .nsmg-005 ul {
+    list-style: none;
+    padding: 0; }
+  .nsmg-005 .bl {
+    color: #0054c1; }
+  .nsmg-005 .rd {
+    color: #c1002a; }
+  .nsmg-005 .c {
+    width: 100%; }
+
+/*# sourceMappingURL=graphic.css.map */

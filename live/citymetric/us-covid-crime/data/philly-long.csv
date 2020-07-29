@@ -1,0 +1,36 @@
+city,year,crime_type_2,crime_cnt
+Philadelphia,2016,assault,602.0
+Philadelphia,2016,burglary,530.0
+Philadelphia,2016,homicide,25.0
+Philadelphia,2016,larceny,2881.0
+Philadelphia,2016,robbery,468.0
+Philadelphia,2016,sexual assault,110.0
+Philadelphia,2016,vehicle theft,170.0
+Philadelphia,2017,assault,618.0
+Philadelphia,2017,burglary,473.0
+Philadelphia,2017,homicide,30.0
+Philadelphia,2017,larceny,2798.0
+Philadelphia,2017,robbery,444.0
+Philadelphia,2017,sexual assault,96.0
+Philadelphia,2017,vehicle theft,125.0
+Philadelphia,2018,assault,662.0
+Philadelphia,2018,burglary,504.0
+Philadelphia,2018,homicide,20.0
+Philadelphia,2018,larceny,3210.0
+Philadelphia,2018,robbery,359.0
+Philadelphia,2018,sexual assault,78.0
+Philadelphia,2018,vehicle theft,188.0
+Philadelphia,2019,assault,646.0
+Philadelphia,2019,burglary,431.0
+Philadelphia,2019,homicide,22.0
+Philadelphia,2019,larceny,2999.0
+Philadelphia,2019,robbery,438.0
+Philadelphia,2019,sexual assault,64.0
+Philadelphia,2019,vehicle theft,165.0
+Philadelphia,2020,assault,517.0
+Philadelphia,2020,burglary,382.0
+Philadelphia,2020,homicide,26.0
+Philadelphia,2020,larceny,2677.0
+Philadelphia,2020,robbery,341.0
+Philadelphia,2020,sexual assault,38.0
+Philadelphia,2020,vehicle theft,278.0

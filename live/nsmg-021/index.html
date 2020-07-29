@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>nsmg-000</title>
+
+	<link rel='icon' type='image/png' href='./favicon.png'>
+	<link rel='stylesheet' href='./global.css'>
+	<link rel='stylesheet' href='./build/bundle.css'>
+</head>
+
+<body>
+</body>
+<script>
+	// https://www.bram.us/2016/10/31/checking-if-a-browser-supports-es6/
+	var supportsES6 = function() {
+		try {
+			new Function("(a = 0) => a");
+			return true;
+		}
+		catch (err) {
+			return false;
+		}
+	}();
+
+	/**
+	 * detect IEEdge
+	 * returns version of IE/Edge or false, if browser is not a Microsoft browser
+	 * https://stackoverflow.com/questions/19999388/check-if-user-is-using-ie
+	 */
+	function detectIEEdge() {
+		var ua = window.navigator.userAgent;
+
+		var msie = ua.indexOf('MSIE ');
+		if (msie > 0) {
+				// IE 10 or older => return version number
+				return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+		}
+
+		var trident = ua.indexOf('Trident/');
+		if (trident > 0) {
+				// IE 11 => return version number
+				var rv = ua.indexOf('rv:');
+				return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+		}
+
+		var edge = ua.indexOf('Edge/');
+		if (edge > 0) {
+			// Edge => return version number
+			return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+		}
+
+		return false;
+	}
+
+	(function() {
+		// catch IE and no ES6 support
+		if(detectIEEdge() || !supportsES6) {
+				document.body.innerHTML = "<img src='fallback.jpg' alt='Browser not supported' class='fallback'><p class='fallback-text'>Browser not supported<\/p>";
+				// setTimeout(() => {
+				// 	pymChild.sendHeight();
+				// }, 500);
+			}
+			else {
+				document.write('<script defer src="./build/bundle.js"><\/script>');
+			}
+	})();
+</script>
+</head>
+
+<body>
+</body>
+</html>

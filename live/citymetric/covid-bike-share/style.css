@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Unit OT Black";
+  src: url("../ff-unit-pro-cufonfonts-webfont/FF Unit Pro Black.woff");
+}
+
+@font-face {
+  font-family: "Unit OT Bold";
+  src: url("../ff-unit-pro-cufonfonts-webfont/FF Unit Pro Bold.woff");
+}
+
+@font-face {
+  font-family: "Unit OT Medium";
+  src: url("../ff-unit-pro-cufonfonts-webfont/FF Unit Pro Medium.woff");
+}
+
+@font-face {
+  font-family: "Unit OT";
+  src: url("../ff-unit-pro-cufonfonts-webfont/FF Unit Pro Regular.woff");
+}
+
+#container{
+    max-width:1000px;
+}
+
+@media screen and (max-width: 500px) {
+    #container{
+        font-size: .875em;
+    }
+}
+
+#chart{
+    width:100%;
+}
+
+svg{
+    overflow: visible;
+}
+
+.bar {
+    fill: #3F618C;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+
+.axis .domain {
+    display: none;
+}
+
+h3{
+    font-size: 1.17em;
+    line-height: 1.5em;
+}
+
+h3,h5{
+    margin: 0;
+    padding: 0;
+    font-family: "Unit OT", Source Sans Pro, sans-serif;
+}
+
+h4{
+    margin: .5em 0 0 0;
+    padding: 0;
+    font-size: .875em;
+    color:#666666;
+    font-weight: normal;
+    font-family: "Unit OT", Source Sans Pro, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    h4{
+        margin-top:1em;
+    }
+}
+
+.n,.axis{
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(123, 123, 123);
+}
+
+.n, .axis{
+    font-size: 12px;
+}
+
+.grid line {
+    stroke: lightgrey;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+
+.domain{
+    display: none;
+}
+
+#source{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight:400;
+    font-size: .75em;
+    color: #607a8a;
+    height: 50px;
+}
+
+#lockdown2019{
+    color:steelblue;
+    border-bottom: 2px solid steelblue;
+}
+
+#lockdown2020{
+    color:#8e1600;
+    border-bottom: 2px solid #8e1600;
+}
+
+
+.bar {
+    fill: #cccccc;
+}
+.bar:hover{
+    fill:#666666;
+}
+
+.ois{
+    fill:#8B0000;
+}
+
+.tick, .tick text{
+    fill: #666;
+}
+
+text{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: .75em;
+    fill: #666666;
+}
+
+/*text:hover{
+    fill: #666666;
+}*/
+
+.tick, .tick text{
+    font-size: 1em;
+}
+
+@media screen and (max-width: 500px) {
+    text{
+         font-size: .5em;
+    }
+
+    .tick, .tick text{
+        font-size: .85em;
+    }
+
+    .x .tick text{
+        visibility: hidden;
+    }
+
+    .x .tick:nth-child(7n+1) text {
+        visibility: visible;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    text{
+         font-size: .55em;
+    }
+
+    .x .tick:nth-child(2n) text {
+        visibility: hidden;
+    }
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #D4D8DA;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+.x path {
+    display: none;
+}
+.toolTip {
+    font-family: "Source Sans Pro", sans-serif;
+    position: absolute;
+    display: none;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 #ffffff;
+    padding: 10px;
+    text-align: center;
+}

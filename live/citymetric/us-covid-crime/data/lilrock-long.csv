@@ -1,0 +1,36 @@
+city,year,crime_type_2,crime_cnt
+Little Rock,2016,assault,151.0
+Little Rock,2016,burglary,136.0
+Little Rock,2016,homicide,3.0
+Little Rock,2016,larceny,846.0
+Little Rock,2016,robbery,36.0
+Little Rock,2016,sexual assault,9.0
+Little Rock,2016,vehicle theft,94.0
+Little Rock,2017,assault,267.0
+Little Rock,2017,burglary,200.0
+Little Rock,2017,homicide,3.0
+Little Rock,2017,larceny,775.0
+Little Rock,2017,robbery,45.0
+Little Rock,2017,sexual assault,16.0
+Little Rock,2017,vehicle theft,97.0
+Little Rock,2018,assault,184.0
+Little Rock,2018,burglary,146.0
+Little Rock,2018,homicide,3.0
+Little Rock,2018,larceny,740.0
+Little Rock,2018,robbery,16.0
+Little Rock,2018,sexual assault,22.0
+Little Rock,2018,vehicle theft,80.0
+Little Rock,2019,assault,244.0
+Little Rock,2019,burglary,135.0
+Little Rock,2019,homicide,2.0
+Little Rock,2019,larceny,669.0
+Little Rock,2019,robbery,20.0
+Little Rock,2019,sexual assault,17.0
+Little Rock,2019,vehicle theft,69.0
+Little Rock,2020,assault,218.0
+Little Rock,2020,burglary,130.0
+Little Rock,2020,homicide,7.0
+Little Rock,2020,larceny,550.0
+Little Rock,2020,robbery,39.0
+Little Rock,2020,sexual assault,13.0
+Little Rock,2020,vehicle theft,77.0

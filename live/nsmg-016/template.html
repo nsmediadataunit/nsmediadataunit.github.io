@@ -1,0 +1,154 @@
+
+<meta name="viewport" content="width=device-width"> 
+
+<style>#nsmg-000-0 iframe { width: 100%;
+  height: 100%;}
+#nsmg-000-0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.foreground {
+  width: 100%;
+}
+
+.foreground .scroll-section {
+  pointer-events: all;
+  background-color: #fff;
+  background-clip: content-box;
+}
+
+.end-foreground {
+  padding: 5vh 5% 0 5%;
+}
+/* Mobile */
+@media (max-width: 500px) {
+  .foreground .scroll-section {
+    padding: 90vh 0 0 0;
+  }
+}
+
+/* Not Mobile */
+@media (min-width: 500px) {
+  .foreground .scroll-section {
+    padding: 90vh 0 0 0;
+  }
+}
+h4 {
+  margin: 0;
+  padding: 0;
+  color: #c1002a;
+  font-weight: normal;
+}
+.title {
+  text-align: center;
+  font-size: 3em;
+}
+</style>
+
+<!-- <div style="width: 80%; background: rgba(0,0,0,0.025); margin: 5%; padding: 5%"> -->
+<div>
+  <div id="nsmg-000-0"></div>
+  <h4 class="title">Systemic inequalities project</h4>
+
+  <div class="foreground">
+    <div class="scroll-section" id="step0"></div>
+    <div class="scroll-section" id="step1">section 1 
+      <p>The George Floyd protest brought attention to the systemic discrimination Black people still face in the US.</p>
+
+      <p>The protests expanded globally, reaching London, Birmingham, Liverpool, Manchester and Newcastle upon Tyne.</p>
+
+      <p>Britain has its own issues. From birth to death, Black people in the UK are still at a disadvantage.</p> 
+      </div>
+    <div class="scroll-section" id="step2">section 2 
+      <p>According to the 2011 census, Black people make up 3.3% of the population in England and Wales, up from just 1% in 2001. By contrast, white people make up 86% of the population.</p>
+    </div>
+    <div class="scroll-section" id="step3">section 2' 
+      <p>Despite that of the population, the Black population may still be continuing to grow. Just 71.3% of the children born in England and Wales in 2018 were white. Black children accounted for some 4.2% of births.</p>
+    </div>
+    <div class="scroll-section" id="step4">section 3 
+      <p>According to an MBRRACE-UK report, Black women in the UK have a higher chance of dying in pregnancy with 40 deaths for 100,000 women, five times the rate for white women.</p>
+
+      <p>Despite representing 4.2% of the live births, Black infants also represented 7.6% of deaths in England and Wales in 2017.</p>
+
+    </div>
+    <div class="scroll-section" id="step5">section 4 
+      <p>While children aged 4-5 of all backgrounds met expected development standards at similar rates, Black children generally receive worse grades as time goes on.</p>
+
+      <p>39% of Black children received a strong pass (grade 5 or above) in English and maths compared to 50% of Asian children and 43% of white children.</p>
+    </div>
+    <div class="scroll-section" id="step6">section 5 
+      <p>Only 5.5% of Black pupils achieved three As or better at A level, compared to around 11% for white, Asian and mixed background pupils.</p>
+    </div>
+    <div class="scroll-section" id="step7">section 6 
+      <p>Perhaps due to Black Brits living in predominantly urban environments, Black pupils are increasingly more likely to go to university, with almost half (44.5%) entering one in 2019 compared to less than a third of white pupils (30.3%).</p>
+    </div>
+    <div class="scroll-section" id="step8">section 7 
+      <p>However, Black students generally receive worse grades. 57% of Black students graduated with first and upper second class honours compared to 77% of white students</p>
+    </div>
+    <div class="scroll-section" id="step9">section 8 
+      <p>The divide continues on in the workforce. Being Black means you’ll earn £1 per hour less than an Asian or white worker, and the pay gap has been growing.</p>
+    </div>
+    <div class="scroll-section" id="step10">section 9 
+      <p>Black employees are twice less likely to be directors, managers and senior officials compared to other groups, the same rate since 2004.</p>
+    </div>
+    <div class="scroll-section" id="step11">section 10 
+      <p>Black employees are twice less likely to be directors, managers and senior officials compared to other groups, the same rate since 2004.</p>
+    </div>
+    <div class="scroll-section" id="step12">section 11 
+      <p>Black people are also twice less likely to live in a house they own…</p>
+    </div>
+    <div class="scroll-section" id="step13">section 12 
+      <p>… and almost three times as likely to live in social housing.</p>
+    </div>
+    <div class="end-foreground"></div>
+  </div>
+  
+</div>
+
+  <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+  <script>
+
+      // localhost testing
+      var pymParent = new pym.Parent('nsmg-000-0', "./index.html", {});
+
+      // test link
+      // var pymParent = new pym.Parent('nsmg-000-0', "http://nsmediadataunit.github.io/test/nsmg-000", {});
+
+      // live link
+      // var pymParent = new pym.Parent('nsmg-000-0', "http://nsmediadataunit.github.io/live/nsmg-000", {});
+      
+      function sendStep() {
+
+        function isVisible(element){
+          return element.top < window.innerHeight && element.bottom >= window.innerHeight*0.15;
+        };
+
+        function topThreshold() {
+          return document.getElementsByClassName("foreground")[0].getBoundingClientRect().top < window.innerHeight/2;
+        };
+
+        function topEndThreshold() {
+          return document.getElementsByClassName("end-foreground")[0].getBoundingClientRect().top > window.innerHeight*(2/3);
+        };
+
+        const display = topThreshold() && topEndThreshold();
+        pymParent.sendMessage('display',display);
+
+        let step = undefined;
+        for(let i = 0; i<=18; i++){
+          if(step === undefined && isVisible(document.getElementById('step'+i).getBoundingClientRect())){
+            step = i;
+            pymParent.sendMessage('step', step);
+          }
+        };
+      };
+      
+      pymParent.onMessage('childLoaded', sendStep);
+      window.addEventListener('resize', sendStep);
+      window.addEventListener('scroll', sendStep);
+
+  </script>

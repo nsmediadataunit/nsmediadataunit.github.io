@@ -1,0 +1,41 @@
+city,year,crime_type_2,crime_cnt
+Chicago,2016,arson,46.0
+Chicago,2016,assault,5538.0
+Chicago,2016,burglary,946.0
+Chicago,2016,homicide,37.0
+Chicago,2016,larceny,4594.0
+Chicago,2016,robbery,771.0
+Chicago,2016,sexual assault,176.0
+Chicago,2016,vehicle theft,757.0
+Chicago,2017,arson,47.0
+Chicago,2017,assault,5739.0
+Chicago,2017,burglary,968.0
+Chicago,2017,homicide,47.0
+Chicago,2017,larceny,4803.0
+Chicago,2017,robbery,851.0
+Chicago,2017,sexual assault,213.0
+Chicago,2017,vehicle theft,837.0
+Chicago,2018,arson,27.0
+Chicago,2018,assault,5443.0
+Chicago,2018,burglary,942.0
+Chicago,2018,homicide,43.0
+Chicago,2018,larceny,4996.0
+Chicago,2018,robbery,693.0
+Chicago,2018,sexual assault,191.0
+Chicago,2018,vehicle theft,751.0
+Chicago,2019,arson,31.0
+Chicago,2019,assault,5708.0
+Chicago,2019,burglary,700.0
+Chicago,2019,homicide,56.0
+Chicago,2019,larceny,4651.0
+Chicago,2019,robbery,599.0
+Chicago,2019,sexual assault,181.0
+Chicago,2019,vehicle theft,771.0
+Chicago,2020,arson,31.0
+Chicago,2020,assault,3628.0
+Chicago,2020,burglary,487.0
+Chicago,2020,homicide,59.0
+Chicago,2020,larceny,2282.0
+Chicago,2020,robbery,439.0
+Chicago,2020,sexual assault,101.0
+Chicago,2020,vehicle theft,619.0

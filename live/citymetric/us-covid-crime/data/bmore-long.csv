@@ -1,0 +1,41 @@
+city,year,crime_type_2,crime_cnt
+Baltimore,2016,arson,26.0
+Baltimore,2016,assault,1052.0
+Baltimore,2016,burglary,533.0
+Baltimore,2016,homicide,28.0
+Baltimore,2016,larceny,1450.0
+Baltimore,2016,robbery,432.0
+Baltimore,2016,sexual assault,28.0
+Baltimore,2016,vehicle theft,349.0
+Baltimore,2017,arson,29.0
+Baltimore,2017,assault,1427.0
+Baltimore,2017,burglary,644.0
+Baltimore,2017,homicide,29.0
+Baltimore,2017,larceny,1246.0
+Baltimore,2017,robbery,414.0
+Baltimore,2017,sexual assault,38.0
+Baltimore,2017,vehicle theft,343.0
+Baltimore,2018,arson,14.0
+Baltimore,2018,assault,1282.0
+Baltimore,2018,burglary,458.0
+Baltimore,2018,homicide,33.0
+Baltimore,2018,larceny,1251.0
+Baltimore,2018,robbery,402.0
+Baltimore,2018,sexual assault,26.0
+Baltimore,2018,vehicle theft,313.0
+Baltimore,2019,arson,6.0
+Baltimore,2019,assault,1236.0
+Baltimore,2019,burglary,421.0
+Baltimore,2019,homicide,22.0
+Baltimore,2019,larceny,1301.0
+Baltimore,2019,robbery,326.0
+Baltimore,2019,sexual assault,28.0
+Baltimore,2019,vehicle theft,316.0
+Baltimore,2020,arson,5.0
+Baltimore,2020,assault,846.0
+Baltimore,2020,burglary,337.0
+Baltimore,2020,homicide,20.0
+Baltimore,2020,larceny,718.0
+Baltimore,2020,robbery,218.0
+Baltimore,2020,sexual assault,9.0
+Baltimore,2020,vehicle theft,202.0
