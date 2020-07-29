@@ -32,12 +32,14 @@ h5 {
 .nsmg-h3,
 .nsmg-h4,
 .nsmg-h5 {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .nsmg-h4 {
   color: #c1002a;
+  font-family: "Unit OT";
+  font-weight: normal;
 }
 
 body {
