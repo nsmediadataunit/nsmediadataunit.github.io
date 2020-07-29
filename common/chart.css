@@ -28,6 +28,18 @@ h5 {
   color: #c1002a;
 }
 
+.nsmg-h2,
+.nsmg-h3,
+.nsmg-h4,
+.nsmg-h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.nsmg-h5 {
+  color: #c1002a;
+}
+
 body {
   padding: 16px;
 }
